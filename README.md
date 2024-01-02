@@ -53,8 +53,9 @@ To set up the environment and run this project locally, follow these steps:
     - Use the `Employee_Retention_Prediction.ipynb` notebook to create and evaluate predictive models for employee retention.
 
     - Experiment with various algorithms, including:
+        - Logistic Regression
         - Random Forest Classifier
-        - Gradient Boosting Classifier
+        - XG Boost Classifier
         - Artificial Neural Networks (Deep Learning)
 
 3. **Evaluation**:
@@ -70,13 +71,19 @@ This project involves several techniques and libraries, including:
     - `matplotlib` and `seaborn`: for data visualization.
 
 - **Models Explored**:
+    - Logistic Regression
     - Random Forest Classifier
-    - Gradient Boosting Classifier
+    - XG Boost Classifier
     - Artificial Neural Networks using TensorFlow/Keras
 
 ## Results
 
 The project achieved the following results on the test set:
+
+- **Logistic Regression**:
+    - Accuracy: 87.77%
+    - Precision and Recall for Class 0: High
+    - Precision and Recall for Class 1: Moderate
 
 - **Random Forest Classifier**:
     - Accuracy: 88%
