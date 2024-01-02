@@ -1,6 +1,6 @@
-# Employee Attrition Prediction
+# Employee Retention Prediction
 
-This project focuses on predicting employee attrition within an organization using machine learning models and deep learning techniques. The objective is to analyze historical employee data, identify significant factors contributing to attrition, and create predictive models to forecast potential attrition cases.
+This project focuses on predicting employee retention within an organization using machine learning models and deep learning techniques. The primary goal is to analyze historical employee data, identify influential factors contributing to retention, and build predictive models to forecast potential cases of employee retention.
 
 ## Table of Contents
 
@@ -15,15 +15,15 @@ This project focuses on predicting employee attrition within an organization usi
 
 ## Introduction
 
-Employee attrition, the departure of staff from a company, poses significant challenges for organizations. Understanding and predicting attrition can help companies take proactive measures to retain valuable employees. This project delves into exploratory data analysis (EDA), feature engineering, and the application of various machine learning and deep learning models to predict employee attrition.
+Employee retention, the ability to retain valuable staff within a company, is crucial for organizational success. This project delves into exploratory data analysis (EDA), feature engineering, and the application of various machine learning and deep learning models to predict and understand factors influencing employee retention.
 
 ## Dataset Overview
 
-The dataset used in this project comprises employee-related features such as:
+The dataset used in this project encompasses employee-related features such as:
 
-- Demographics: Age, Gender, Marital Status
-- Job-related Factors: Job Role, Department, Job Level, Job Satisfaction
-- Work Environment: Work Accident History, Working Hours, Performance Ratings
+- **Demographics**: Age, Gender, Marital Status
+- **Job-related Factors**: Job Role, Department, Job Level, Job Satisfaction
+- **Work Environment**: Work Accident History, Working Hours, Performance Ratings
 - **Employee Performance Indicators**: Years at Company, Promotions, Salary, Satisfaction Level
 
 Dataset Source: [Provide Source/Reference if Applicable]
@@ -35,7 +35,7 @@ To set up the environment and run this project locally, follow these steps:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/employee-attrition-prediction.git
+    git clone https://github.com/your-username/employee-retention-prediction.git
     ```
 
 2. Navigate to the project directory.
@@ -49,22 +49,22 @@ To set up the environment and run this project locally, follow these steps:
 ## Usage
 
 1. **Exploratory Data Analysis (EDA)**:
-    - Access and explore the `Employee_Attrition_Analysis.ipynb` notebook to understand the dataset's characteristics, distributions, and relationships between features.
+    - Explore the `Employee_Retention_Analysis.ipynb` notebook to understand the dataset's characteristics, distributions, and relationships between features.
 
 2. **Model Building**:
-    - Utilize the `Employee_Attrition_Prediction.ipynb` notebook to build and evaluate predictive models for employee attrition.
-    
-    - Experiment with various algorithms such as:
+    - Use the `Employee_Retention_Prediction.ipynb` notebook to create and evaluate predictive models for employee retention.
+
+    - Experiment with various algorithms, including:
         - Random Forest Classifier
         - Gradient Boosting Classifier
         - Artificial Neural Networks (Deep Learning)
 
 3. **Evaluation**:
-    - Assess the performance of the models using metrics like accuracy, precision, recall, and F1-score.
+    - Assess model performance using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Models and Techniques
 
-This project employs several techniques and libraries, including:
+This project involves several techniques and libraries, including:
 
 - **Machine Learning Libraries**:
     - `scikit-learn`: for data preprocessing, model building, and evaluation.
@@ -95,3 +95,10 @@ The project achieved the following results on the test set:
     - Precision and Recall for Class 0: High
     - Precision and Recall for Class 1: Moderate
 
+## Contributing
+
+Contributions to enhance this project are welcome! If you have suggestions, feature requests, or want to report issues, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
