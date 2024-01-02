@@ -86,14 +86,14 @@ The project achieved the following results on the test set:
     - Precision and Recall for Class 1: Moderate
 
 - **Random Forest Classifier**:
-    - Accuracy: 88%
+    - Accuracy: 85.86%
     - Precision and Recall for Class 0: High
     - Precision and Recall for Class 1: Moderate
 
-- **Gradient Boosting Classifier** (if applicable):
-    - Accuracy: XX%
-    - Precision and Recall for Class 0: XX
-    - Precision and Recall for Class 1: XX
+- **XG Boost Classifier** :
+    - Accuracy: 87.5%
+    - Precision and Recall for Class 0: High
+    - Precision and Recall for Class 1: Moderate
 
 - **Deep Learning Model**:
     - Accuracy: 87%
