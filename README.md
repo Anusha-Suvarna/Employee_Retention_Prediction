@@ -11,7 +11,6 @@ This project focuses on predicting employee retention within an organization usi
 - [Models and Techniques](#models-and-techniques)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
