@@ -26,7 +26,6 @@ The dataset used in this project encompasses employee-related features such as:
 - **Work Environment**: Work Accident History, Working Hours, Performance Ratings
 - **Employee Performance Indicators**: Years at Company, Promotions, Salary, Satisfaction Level
 
-Dataset Source: [Provide Source/Reference if Applicable]
 
 ## Installation
 
@@ -99,6 +98,3 @@ The project achieved the following results on the test set:
 
 Contributions to enhance this project are welcome! If you have suggestions, feature requests, or want to report issues, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
